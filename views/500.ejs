@@ -1,0 +1,25 @@
+<%- include('includes/head.ejs') %>
+
+<body>
+    <%- include('includes/navigation.ejs') %>
+
+    <main class="container" style="max-width: 800px; margin: 50px auto; text-align: center; background-color: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
+        <h1 style="color: #d9534f;">Internal Server Error 500</h1>
+        <p style="color: #555;">We're sorry, something went wrong on our end.</p>
+        <p style="color: #555;">Our team has been notified and is working on fixing the issue.</p>
+        <p style="color: #555;">In the meantime, you can try refreshing the page or come back later.</p>
+        <a href="/" class="btn" style="display: inline-block; background-color: #00695c; color: #fff; padding: 10px 20px; text-decoration: none; border-radius: 5px; transition: background-color 0.3s, transform 0.3s; margin-top: 20px;">
+            Go back to Home
+        </a>
+        <style>
+            .btn:hover {
+                background-color: #286090;
+                transform: scale(1.05);
+            }
+        </style>
+    </main>
+
+    <%- include('includes/end.ejs') %>
+</body>
+
+</html>
